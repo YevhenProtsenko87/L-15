@@ -1,0 +1,28 @@
+.info {
+    margin-left: 20%;
+    height: 100%;
+    background:rgb(126, 3, 70); 
+    padding: 50px;
+    color: white;
+
+    &__block {
+        @include flex(row, center, flex-start);
+        flex-wrap: wrap;
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+.inside {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding:20px;
+    padding-left: 60px;
+    position: relative;
+    }
+
+.pos {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}

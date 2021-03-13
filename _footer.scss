@@ -1,0 +1,69 @@
+.footer {
+    margin-left: 20%;
+    height: 100%;
+    background:rgb(0, 0, 100); 
+    color: white;
+    padding: 50px;
+    position: relative;
+
+    &__block {
+        @include flex(row, space-between, flex-start);
+        margin: 20px 0px 20px 0px;
+    }
+
+    &__block_2{
+        background:rgb(0, 0, 50); 
+        position: absolute;
+        left: 0px;
+        bottom: -90px;
+        width: 100%;
+        padding: 40px 0px 0px 40px;
+        
+    }
+}
+
+.block_1{
+    width: 60%;
+    @include flex(row, flex-start, flex-start);
+    flex-wrap: wrap;
+
+    &__Inside {
+        width: calc(100%/2);
+    }
+
+    &__Inside_2 {
+        width: 100%;
+    }
+}
+
+.block_2 {
+    width: 30%;
+
+    &__line {
+        @include flex(row, flex-start, flex-start);
+    }
+}
+
+.icon{
+    margin: 0px 5px 0px 5px;
+    font-size: 25px;
+}
+
+[type="text"] {
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: calc(100% - 10px);
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+[name="Message"] {
+    width: calc(100% - 10px);
+    height: 180px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    background-color:rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: auto;
+ }

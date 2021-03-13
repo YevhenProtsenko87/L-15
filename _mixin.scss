@@ -1,0 +1,17 @@
+@mixin flex($fd, $jc, $ai) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin button ($wi, $p, $br, $bc, $b, $c){
+    width: $wi;
+    padding: $p;
+    border-radius: $br;
+    background-color: $bc;
+    border: $b;
+    color: $c;
+}
+
+$corporate-color: blue;

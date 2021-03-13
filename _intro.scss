@@ -1,0 +1,39 @@
+.intro {
+    margin-left: 20%;
+
+    &__info {
+        @include flex(row, flex-start, center);
+        background: rgb(0, 0, 200);
+        
+        &__block {
+            color: white;
+            padding: 30px;
+        }
+
+        &__img {
+            height: 360px;
+            width: 360px;
+            background-image: url(img/pic01.jpg);
+        }
+    }
+}
+
+.intro__info_2{
+    background: rgb(0, 0, 150);
+    
+    &__img {
+        background-image: url(img/pic02.jpg);
+    }
+}
+
+.intro__info_3{
+    background: rgb(0, 0, 100);
+
+    &__img {
+        background-image: url(img/pic03.jpg);
+    }
+}
+
+ 
+
+
