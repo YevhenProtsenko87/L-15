@@ -85,3 +85,22 @@
         width: 100%;
     }
 }
+
+@media(max-width: map-get($breakpoints, mobile)){
+    .footer {
+        padding: 50px 30px 50px 30px;
+
+        &__block_2{
+            font-size: 15px;
+        }
+    }
+
+    .block_1{
+        width: 100%;
+        @include flex(column, flex-start, stretch);
+        
+        &__Inside {
+            width: 100%;
+        }
+    }
+}

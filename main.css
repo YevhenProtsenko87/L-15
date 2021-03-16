@@ -110,6 +110,12 @@ h2 {
   }
 }
 
+@media (max-width: 420px) {
+  .sidebar {
+    visibility: hidden;
+  }
+}
+
 .header {
   margin-left: 20%;
   height: 100%;
@@ -156,6 +162,30 @@ h2 {
 @media (max-width: 920px) {
   .header {
     margin-left: 0%;
+  }
+}
+
+@media (max-width: 420px) {
+  .header {
+    height: 420px;
+  }
+  .header__info {
+    height: 100%;
+    padding: 30px;
+  }
+  .header__info__size {
+    font-size: 30px;
+  }
+  .header__info__size_2 {
+    font-size: 20px;
+  }
+  .header__info__but {
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
   }
 }
 
@@ -211,6 +241,33 @@ h2 {
 @media (max-width: 920px) {
   .intro {
     margin-left: 0%;
+  }
+}
+
+@media (max-width: 420px) {
+  .intro__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .intro__info__block {
+    padding: 50px 30px 50px 30px;
+    width: 100%;
+  }
+  .intro__info__img {
+    height: 420px;
+    width: 420px;
+    background-image: url(img/pic01.jpg);
   }
 }
 
@@ -277,6 +334,12 @@ h2 {
   }
   .inside {
     width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .info {
+    padding: 50px 30px 50px 30px;
   }
 }
 
@@ -409,6 +472,34 @@ h2 {
     width: 100%;
   }
   .block_2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer {
+    padding: 50px 30px 50px 30px;
+  }
+  .footer__block_2 {
+    font-size: 15px;
+  }
+  .block_1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  .block_1__Inside {
     width: 100%;
   }
 }

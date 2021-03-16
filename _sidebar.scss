@@ -36,3 +36,9 @@
        } 
     }
 }
+
+@media(max-width: map-get($breakpoints, mobile)){
+    .sidebar{
+        visibility: hidden;
+    }
+}
