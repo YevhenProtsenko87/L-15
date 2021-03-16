@@ -8,6 +8,7 @@
         &__block {
             color: white;
             padding: 30px;
+            width: 60%;
         }
 
         &__img {
@@ -31,6 +32,12 @@
 
     &__img {
         background-image: url(img/pic03.jpg);
+    }
+}
+
+@media(max-width: map-get($breakpoints, table)){
+    .intro {
+        margin-left: 0%;
     }
 }
 

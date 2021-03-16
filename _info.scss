@@ -26,3 +26,18 @@
     left: 25px;
     top: 25px;
 }
+
+@media(max-width: map-get($breakpoints, table)){
+    .info {
+        margin-left: 0%;
+
+        &__block {
+            @include flex(column, center, center);
+
+        }
+    }
+
+    .inside {
+        width: 100%;
+    }
+}
